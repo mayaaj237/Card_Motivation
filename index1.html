@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Playwrite+AU+VIC+Guides&family=Playwrite+ES+Deco+Guides&display=swap');
+
+    body{   /*First Step to make background grey*/
+        background-color: gray;
+        padding: 50px;
+    }
+    *{
+        margin: 0;;
+        padding: 0;
+    }
+    .card{
+        background-color: white;
+        width: 244px;
+        height: 344px;
+        border-radius: 10px;
+        padding:0 0 30px 0;
+    }
+    .img{
+        padding: 6px;
+
+    }
+    .img img{
+        border-radius: 10px;
+    }
+    .content{
+        padding: 4px;
+    }
+    .content p{
+        
+        font-size: 11px;
+        padding: 5px;
+        color: rgb(89, 93, 93);
+    }
+    .capsule{
+        padding:0 px 0 14px;
+    }
+    .capsule span{
+        border: 2px solid rgb(151, 151, 151);
+        padding: 1px 8px;
+        margin: 10px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    .content h2{
+        padding: 5px;
+        color: rgb(75, 76, 77);
+        font-family: "Playwrite AU VIC Guides", serif;
+    }
+    .button{
+        text-align: center;
+    }
+    .button button{
+       border: 1px solid rgb(175, 171, 171);
+       padding:2px 15px;
+       background-color: rgb(225, 231, 231);
+       font-family: Arial, Helvetica, sans-serif;
+       border-radius: 10px;
+       cursor: pointer;
+       transition: background-color 0.2s ease;
+    }
+    .button button:hover {
+     background-color: #a0a5a0; /* Darker green on hover */
+     }
+</style>
+<body>
+
+<div class="card">   <!--second step then card css-->
+
+    <div class="img"> <!--3rd step then css-->
+        <img src="img.jpg" width="230px" alt="">
+    </div>
+
+
+    <div class="capsule"><!--4th step-->
+      <span>You <3</span>
+      <span>Can :)</span>
+    </div>
+
+     <div class="content"> <!--5th step then css -->
+       <h2>Come on make it </h2>
+       <p>Embrace challenges, learn from setbacks, pursue your passions with unwavering determination, and find joy in the journey of growth and discovery.Live each day with purpose. Embrace change, cherish and strive to leave a positive impact on the world.</p>
+     </div>
+
+     <div class="button"> <!--6th step then css -->
+     <button>Read more</button>
+     </div>
+
+</div>   
+</body>
+</html>
